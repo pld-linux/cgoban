@@ -21,7 +21,7 @@ services for Unix and X11:
 * Play go against another player.
 * Edit and view SGF files.
 * Connect to a go server over the internet. CGoban can connect to NNGS or IGS
-  and gives a convienent graphical user interface to the server.
+  and gives a convenient graphical user interface to the server.
 * Act as a bridge to go modem protocol.
 
 %description -l pl
