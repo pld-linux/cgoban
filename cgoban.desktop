@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=CGoban v1
+Name[pl]=CGoban v1
+Comment=SGF browser and IGS client
+Comment[pl]=Przegladarka plikow SGF i klient IGS
+Icon=cgoban_icon.png
+Exec=cgoban
+Terminal=0
+Type=Application
+
+# vi: encoding=utf-8
