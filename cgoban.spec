@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/cgoban1/%{name}-%{version}.tar.gz
+# Source0-md5:	11894899d6fe83b47effac9b935a99db
 Source1:	%{name}.desktop
 Source2:	%{name}_icon.png
 Patch1:		http://goron.de/~froese/cgoban/%{name}-%{version}-et1.patch
