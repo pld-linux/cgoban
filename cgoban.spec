@@ -12,9 +12,7 @@ Source2:	%{name}_icon.png
 Patch1:		http://goron.de/~froese/cgoban/%{name}-%{version}-et1.patch
 URL:		http://cgoban1.sourceforge.net/
 BuildRequires:	XFree86-devel
-Requires:	XFree86-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 CGoban ("Complete Goban Mark 1") provides a large set of go-related
@@ -39,7 +37,9 @@ innymi pozwala na:
 
 %build
 %configure2_13
-%{__make}
+%{__make} \
+	CFLAGS="%{rpmcflags} %{!?debug:-fomit-frame-pointer} \$(INCS)" \
+	LIBS="-lclient -lgmp -lwms-\$(SYSTEM_TYPE) -lX11 -lm"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -56,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README COPYING TODO
+%doc README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/cgoban.6*
 %{_applnkdir}/Games/Board/*.desktop
