@@ -5,7 +5,7 @@ Comment=SGF browser and IGS client
 Comment[pl]=Przegladarka plikow SGF i klient IGS
 Icon=cgoban_icon.png
 Exec=cgoban
-Terminal=0
+Terminal=false
 Type=Application
 
 # vi: encoding=utf-8
