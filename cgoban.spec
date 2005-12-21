@@ -2,7 +2,7 @@ Summary:	CGoban NNGS and IGS client
 Summary(pl):	CGoban - klient NNGS i IGS
 Name:		cgoban
 Version:	1.9.12
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/cgoban1/%{name}-%{version}.tar.gz
@@ -43,12 +43,12 @@ innymi pozwala na:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man6,%{_applnkdir}/Games/Board,%{_pixmapsdir}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man6,%{_desktopdir},%{_pixmapsdir}}
 
 install cgoban $RPM_BUILD_ROOT%{_bindir}
 install man6/cgoban.6 $RPM_BUILD_ROOT%{_mandir}/man6
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games/Board
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -59,5 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/cgoban.6*
-%{_applnkdir}/Games/Board/*.desktop
+%{_desktopdir}/*.desktop
 %{_pixmapsdir}/*.png
