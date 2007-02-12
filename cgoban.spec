@@ -1,5 +1,5 @@
 Summary:	CGoban NNGS and IGS client
-Summary(pl.UTF-8):   CGoban - klient NNGS i IGS
+Summary(pl.UTF-8):	CGoban - klient NNGS i IGS
 Name:		cgoban
 Version:	1.9.12
 Release:	2
