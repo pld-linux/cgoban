@@ -1,5 +1,5 @@
 Summary:	CGoban NNGS and IGS client
-Summary(pl):	CGoban - klient NNGS i IGS
+Summary(pl.UTF-8):   CGoban - klient NNGS i IGS
 Name:		cgoban
 Version:	1.9.12
 Release:	2
@@ -23,13 +23,13 @@ services for Unix and X11:
   and gives a convenient graphical user interface to the server.
 * Act as a bridge to go modem protocol.
 
-%description -l pl
-CGoban ("Complete Goban Mark 1") dostarcza narzêdzi do gry w go. Miêdzy
+%description -l pl.UTF-8
+CGoban ("Complete Goban Mark 1") dostarcza narzÄ™dzi do gry w go. MiÄ™dzy
 innymi pozwala na:
 * rozegranie partii z innym graczem
-* edycjê i przegl±danie plików SGF
-* wspó³pracê z serwerami NNGS i IGS. Dostarcza graficzny interfejs
-  u¿ytkownika dla tych protoko³ów
+* edycjÄ™ i przeglÄ…danie plikÃ³w SGF
+* wspÃ³Å‚pracÄ™ z serwerami NNGS i IGS. Dostarcza graficzny interfejs
+  uÅ¼ytkownika dla tych protokoÅ‚Ã³w
 
 %prep
 %setup -q
