@@ -11,7 +11,7 @@ Source1:	%{name}.desktop
 Source2:	%{name}_icon.png
 Patch1:		http://goron.de/~froese/cgoban/%{name}-%{version}-et1.patch
 URL:		http://cgoban1.sourceforge.net/
-BuildRequires:	XFree86-devel
+BuildRequires:	xorg-lib-libX11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
