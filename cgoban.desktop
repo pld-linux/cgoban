@@ -1,10 +1,9 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=CGoban v1
 Name[pl]=CGoban v1
 Comment=SGF browser and IGS client
 Comment[pl]=Przeglądarka plików SGF i klient IGS
-Icon=cgoban_icon.png
+Icon=cgoban_icon
 Exec=cgoban
 Terminal=false
 Type=Application
