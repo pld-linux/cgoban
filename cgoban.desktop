@@ -7,5 +7,5 @@ Icon=cgoban_icon
 Exec=cgoban
 Terminal=false
 Type=Application
-Categories=X11;Game;
+Categories=Game;
 # vi: encoding=utf-8
