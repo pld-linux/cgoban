@@ -1,3 +1,6 @@
+#
+# see DEVEL branch for ver. 1.9.14
+#
 Summary:	CGoban NNGS and IGS client
 Summary(pl.UTF-8):	CGoban - klient NNGS i IGS
 Name:		cgoban
