@@ -36,7 +36,7 @@ innymi pozwala na:
 
 %prep
 %setup -q
-%patch1 -p1
+%patch -P1 -p1
 
 %build
 %configure2_13
